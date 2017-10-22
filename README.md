@@ -30,6 +30,7 @@ Pour connaitre les Commandes GITHUB se référer à ce repo : https://github.com
 
 #### CINQUIEME ETAPE - MISES A JOUR
 11. Toujours revenir dans ce répertoire LOCAL pour faire les modifications.
+11 Attention : Faire un <b>git pull origin nom_branch</b> avant de commencer toute modif pour eviter les conflits.
 12. Refaire un <b style="color:blue">git add .</b> ou <b style="color:blue">git add .</b> avec le nom du fichier
 13. Refaire un <b>git commit -m "message de mise à jour"</b> pour expliquer le contenu du commit sur GITHUB
 14. Refaire un <b>git push origin nom_branch</b> pour "effectuer" le commit sur la branche et non sur le master
