@@ -1,0 +1,41 @@
+/* styles communs */
+body{
+	font-family: arial;
+	font-size:14px;
+
+}
+h1{
+	color:#ffffff;
+	background-color:#9100ff;
+	padding:18px 20px;
+	margin:0;
+	font-size:28px;
+	font-weight:bold;
+}
+form{
+	width:630px;
+	margin:50px;
+}
+input{
+	padding:10px;
+	color:#666666;
+	margin:10px 0;
+	width:200px;
+	border:1px solid #999999;
+	display:block;
+}
+#content{
+	background-color: #d3d3d3;
+	padding:20px 50px 20px 40px;
+}
+.btn{
+	color:#fff;
+	text-decoration:none;
+	background-color:#9100ff;
+	padding:15px 20px;
+	font-size:16px;
+	text-align: left;
+	width:auto;
+}
+
+
