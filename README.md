@@ -1,3 +1,12 @@
+Login (https://fayechartre6.000webhostapp.com/exos/exo4b.html)
+Navigation (https://fayechartre6.000webhostapp.com/exos/exo5-nav.html)
+Article (https://fayechartre6.000webhostapp.com/exos/Article.html)
+Article Vertical (https://fayechartre6.000webhostapp.com/exos/exo6-articleb.html)
+Header site (https://fayechartre6.000webhostapp.com/exos/exo7-site.html)
+Position (https://fayechartre6.000webhostapp.com/exos/exo9-position.html)
+Page LI (https://fayechartre6.000webhostapp.com/exos/exo10-li.html)
+Position BG (https://fayechartre6.000webhostapp.com/exos/exo11-bg.html)
+
 # Etape à suivre pour gérer des fichiers/dossiers
 Pour connaitre les Commandes GITHUB se référer à ce repo : https://github.com/icmrprojet/isaProject-test 
 
