@@ -1,11 +1,11 @@
-Login (https://fayechartre6.000webhostapp.com/exos/exo4b.html)
-Navigation (https://fayechartre6.000webhostapp.com/exos/exo5-nav.html)
-Article (https://fayechartre6.000webhostapp.com/exos/Article.html)
-Article Vertical (https://fayechartre6.000webhostapp.com/exos/exo6-articleb.html)
-Header site (https://fayechartre6.000webhostapp.com/exos/exo7-site.html)
-Position (https://fayechartre6.000webhostapp.com/exos/exo9-position.html)
-Page LI (https://fayechartre6.000webhostapp.com/exos/exo10-li.html)
-Position BG (https://fayechartre6.000webhostapp.com/exos/exo11-bg.html)
+<b>Login</b> (https://fayechartre6.000webhostapp.com/exos/exo4b.html)<br>
+<b>Navigation</b> (https://fayechartre6.000webhostapp.com/exos/exo5-nav.html)<br>
+<b>Article</b> (https://fayechartre6.000webhostapp.com/exos/Article.html)<br>
+<b>Article Vertical</b> (https://fayechartre6.000webhostapp.com/exos/exo6-articleb.html)<br>
+<b>Header site</b> (https://fayechartre6.000webhostapp.com/exos/exo7-site.html)<br>
+<b>Position</b> (https://fayechartre6.000webhostapp.com/exos/exo9-position.html)<br>
+<b>Page LI</b> (https://fayechartre6.000webhostapp.com/exos/exo10-li.html)<br>
+<b>Position BG</b> (https://fayechartre6.000webhostapp.com/exos/exo11-bg.html)<br>
 
 # Etape à suivre pour gérer des fichiers/dossiers
 Pour connaitre les Commandes GITHUB se référer à ce repo : https://github.com/icmrprojet/isaProject-test 
