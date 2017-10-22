@@ -1,0 +1,22 @@
+html{
+	height:100%;
+}
+body{
+	margin:0;
+	padding:0;
+	font-size:0;
+	height:100%;
+	font-family:Arial;
+	background-image: url('images/bg_circuit.png');
+	background-repeat: repeat;
+}
+div {
+	width:500px;
+	height:700px;
+	margin:100px auto;
+	background-image: url('images/landscape.jpg');
+	background-color: #cecece;
+	background-position:center;
+	background-size:cover;	/* containt */
+	background-repeat: no-repeat;
+}
