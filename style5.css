@@ -1,0 +1,17 @@
+/* styles communs */
+body{
+	font-family: arial;
+	font-size:18px; line-height:30px;
+	list-style-type: none;
+}
+a { color:#ffffff; 
+	text-decoration: none; 
+	display:block;	
+	color:#ffffff;
+	padding:10px; }
+a:hover { background-color:#b251fc;}
+a.on { background-color:#b251fc;}
+ul{ width:550px; background-color:#9100ff;  }
+li { display:inline-block;}
+
+
