@@ -28,7 +28,7 @@ Pour connaitre les Commandes GITHUB se référer à ce repo : https://github.com
 9. Revenir dans la console et créer une branche : <b>git branch nom_branch</b>
 10. Se positionner dans cette nouvelle branche : <b>git checkout nom_branch</b>, le nom de la branch apparait en cyan à la fin des lignes
 
-#### CINQUIEME ETAPE - MISES A JOURS
+#### CINQUIEME ETAPE - MISES A JOUR
 11. Toujours revenir dans ce répertoire LOCAL pour faire les modifications.
 12. Refaire un <b style="color:blue">git add .</b> ou <b style="color:blue">git add .</b> avec le nom du fichier
 13. Refaire un <b>git commit -m "message de mise à jour"</b> pour expliquer le contenu du commit sur GITHUB
