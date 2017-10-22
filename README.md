@@ -1,14 +1,14 @@
 # CSS-tests
 Severals HTML5 pages with CSS
 
-## Etape à suivre pour gérer des fichiers/dossiers
+# Etape à suivre pour gérer des fichiers/dossiers
 Pour connaitre les Commandes GITHUB se référer à ce repo : https://github.com/icmrprojet/isaProject-test 
 
-### PREMIERE ETAPE
+#### PREMIERE ETAPE
 1. Créer le projet sur GITHUB avec un fichier README.md
 2. Faire un clone du Projet et le positionner dans le repertoire LOCAL choisi en y ajoutant un fichier <b style="color:red">.gitignore</b>
 
-### DEUXIEME ETAPE
+#### DEUXIEME ETAPE
 3. Placer tous les fichiers à traiter dans ce répertoire LOCAL
 4. Se placer dans ce repertoire via la console avec la commande cd +rep
 5. Faire le premier <b style="color:blue">git add .</b> pour tout selectionner
@@ -18,11 +18,11 @@ Pour connaitre les Commandes GITHUB se référer à ce repo : https://github.com
 #### TROISIEME ETAPE
 8. Sur GITHUB vérifier que tous les fichiers ont bien été downloadé dans le master du projet
 
-##### QUATRIEME ETAPE
+#### QUATRIEME ETAPE
 9. Revenir dans la console et créer une branche : <b>git branch nom_branch</b>
 10. Se positionner dans cette nouvelle branche : <b>git checkout nom_branch</b>, le nom de la branch apparait en cyan à la fin des lignes
 
-###### CINQUIEME ETAPE & MISES A JOURS
+#### CINQUIEME ETAPE & MISES A JOURS
 11. Toujours revenir dans ce répertoire LOCAL pour faire les modifications.
 12. Refaire un <b style="color:blue">git add .</b> ou <b style="color:blue">git add .</b> avec le nom du fichier
 13. Refaire un <b>git commit -m "message de mise à jour"</b> pour expliquer le contenu du commit sur GITHUB
