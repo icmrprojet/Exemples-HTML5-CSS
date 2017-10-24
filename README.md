@@ -6,6 +6,8 @@
 <b>Position</b> (https://fayechartre6.000webhostapp.com/exos/exo9-position.html)<br>
 <b>Page LI</b> (https://fayechartre6.000webhostapp.com/exos/exo10-li.html)<br>
 <b>Position BG</b> (https://fayechartre6.000webhostapp.com/exos/exo11-bg.html)<br>
+<b>ALLOCINE</b> (https://fayechartre6.000webhostapp.com/exos/exo-test01-50mn.html)<br>
+<b>PUBLICATION FACEBOOK</b> (https://fayechartre6.000webhostapp.com/exos/exo-test02-50mn.html)<br>
 
 # Etape à suivre pour gérer des fichiers/dossiers
 Pour connaitre les Commandes GITHUB se référer à ce repo : https://github.com/icmrprojet/isaProject-test 
