@@ -1,0 +1,118 @@
+html{
+	height:100%;
+}
+body{
+	margin:0;
+	padding:0;
+	font-size:0;
+	height:100%;
+	font-family:Arial;
+	background-color: #f3f3f3;
+}
+main{
+	background: #ffffff;
+	width:80%;
+	margin: 30px auto;
+	padding:20px;
+}
+figure, article{
+	display: inline-block;
+	vertical-align: top;
+	margin:0;
+}
+article{
+	display: inline-block;
+	color:333333;
+	font-size: 13px;
+	line-height:26px;
+	margin:0 0 0 10px;
+}
+ul{
+	margin: 0;
+	padding:0 10px;
+}
+li{ 
+	display:block;
+	color:333333;
+
+}
+li span:nth-of-type(1){
+	color:#afafaf;
+}
+li span:nth-of-type(2){
+	color:#005ea8;
+}
+li span:nth-of-type(3){
+	color:#000;
+}
+li a{
+	color:#005ea8;
+	text-decoration: underline;
+	margin:5px 0;
+}
+li a.btnBa{
+	 display:inline-block;
+	 width:auto;
+	 background: #2b2b2b;
+	 background-image: url("images/puce.png");
+	 background-repeat: no-repeat;
+	 color:#ffffff;
+	 font-size:14px;
+	 text-decoration: none;
+	 padding:6px 20px 6px 40px;
+	 margin-right:10px;
+	 border-radius: 3px;
+}
+li a.btnSc{
+	 display:inline-block;
+	 width:auto;
+	 background: #fecc00;
+	 color:#2b2b2b;
+	 font-size:14px;
+	 font-weight:bold;
+	 text-decoration: none;
+	 padding:6px 20px;
+	 border-radius: 3px;
+}
+li:nth-of-type(6){
+	padding-top:10px;
+}
+div.note{
+	display: inline-block;
+	/*margin-right: 40px;*/
+	background: #cecece;
+	width:48%;
+	/*width:calc(50% - 2px);  inline-block ajoute 4px de separation */
+}
+.note ul {
+	margin:0;padding:0;
+}
+.note ul li {
+	margin:0;
+	color:#005ea8;
+	font-size: 12px;
+	line-height: 24px;
+	padding:2px 0;
+}
+.note ul li:nth-of-type(1) {
+	padding-top:20px;
+}
+.note ul li:nth-of-type(2) {
+	margin:0;padding:0;
+	font-size: 16px;
+	font-weight: bold;
+}
+.note ul li:nth-of-type(3) {
+	color:#afafaf;
+}
+.note ul li img{
+	width:18px;
+}
+.note figure span{
+	vertical-align: top;
+	font-size: 18px;
+	line-height: 20px;
+	color:#fecc00;
+	font-weight: bold;
+	margin: 0;
+}
