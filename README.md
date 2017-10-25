@@ -36,3 +36,11 @@ Pour connaitre les Commandes GITHUB se référer à ce repo : https://github.com
 12. Refaire un <b style="color:blue">git add .</b> ou <b style="color:blue">git add .</b> avec le nom du fichier
 13. Refaire un <b>git commit -m "message de mise à jour"</b> pour expliquer le contenu du commit sur GITHUB
 14. Refaire un <b>git push origin nom_branch</b> pour "effectuer" le commit sur la branche et non sur le master
+
+#### ERROR ETAPE 
+15. En cas d'erreur "behind commit"
+16. Faire sur le master <b style="color:blue">git stash</b> pour remiser le code : https://git-scm.com/book/fr/v1/Utilitaires-Git-Le-remisage
+17. Puis faire un <b>git pull origin master</b>
+18. Suivi d'un <b>git push origin master</b>
+
+
