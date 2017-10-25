@@ -1,3 +1,4 @@
+<b>Balises</b> (https://fayechartre6.000webhostapp.com/exos/balise-01.html)<br>
 <b>Login</b> (https://fayechartre6.000webhostapp.com/exos/exo4b.html)<br>
 <b>Navigation</b> (https://fayechartre6.000webhostapp.com/exos/exo5-nav.html)<br>
 <b>Article</b> (https://fayechartre6.000webhostapp.com/exos/Article.html)<br>
@@ -6,7 +7,7 @@
 <b>Position</b> (https://fayechartre6.000webhostapp.com/exos/exo9-position.html)<br>
 <b>Page LI</b> (https://fayechartre6.000webhostapp.com/exos/exo10-li.html)<br>
 <b>Position BG</b> (https://fayechartre6.000webhostapp.com/exos/exo11-bg.html)<br>
-<b>ALLOCINE</b> (https://fayechartre6.000webhostapp.com/exos/exo-test01-50mn.html)<br>
+<b>ALLOCINE</b> (https://fayechartre6.000webhostapp.git chacom/exos/exo-test01-50mn.html)<br>
 <b>PUBLICATION FACEBOOK</b> (https://fayechartre6.000webhostapp.com/exos/exo-test02-50mn.html)<br>
 
 # Etape à suivre pour gérer des fichiers/dossiers
@@ -32,7 +33,6 @@ Pour connaitre les Commandes GITHUB se référer à ce repo : https://github.com
 
 #### CINQUIEME ETAPE - MISES A JOUR
 11. Toujours revenir dans ce répertoire LOCAL pour faire les modifications.
-11. Attention : Faire un <b>git pull origin nom_branch</b> avant de commencer toute modif pour eviter les conflits.
 12. Refaire un <b style="color:blue">git add .</b> ou <b style="color:blue">git add .</b> avec le nom du fichier
 13. Refaire un <b>git commit -m "message de mise à jour"</b> pour expliquer le contenu du commit sur GITHUB
 14. Refaire un <b>git push origin nom_branch</b> pour "effectuer" le commit sur la branche et non sur le master
