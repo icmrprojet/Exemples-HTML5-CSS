@@ -44,4 +44,7 @@ Pour connaitre les Commandes GITHUB se référer à ce repo : https://github.com
 17. Puis faire un <b>git pull origin master</b>
 18. Suivi d'un <b>git push origin master</b>
 
+#### Pour sortir de l'EDITEUR
+<b>:q!</b>  ou CTRL C
+
 

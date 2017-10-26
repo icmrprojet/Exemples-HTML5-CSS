@@ -323,6 +323,8 @@ footer article img{
 	width:100%;
 }
 footer div.vote{
+	position: absolute;
+	top:10px;
 	width:98%;
 	height:40px;
 	text-align: right;
@@ -334,8 +336,14 @@ footer div.vote{
 footer article:nth-of-type(2) .vote img{
 	width:68px;
 	}
-footer .vote{
+footer div.date{
 	position: absolute;
-	top:10px;
+	top:30px;
+	height:40px;
+	background-color: rgba(0,0,0,0.5);
+	color:#ffffff;
+	font-size:16px;
+	line-height:36px;
+	padding:5px 15px;
+	margin:0;
 }
-
