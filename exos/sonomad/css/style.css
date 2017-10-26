@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,700');
+
+*{
+	margin:0;
+	padding:0;
+}
+clearfix:before,
+.clearfix:after{
+	content:" ";
+	display:table;
+}
+.clearfix:after{
+	clear:both;
+}
+body{
+	margin:0 auto;
+	font-size:16px;
+	font-family:'Raleway';
+}
+main{
+	_background-image: url("../images/maquette-Sonomad.png");
+	background-position: top left;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	_background-color: #cecece;
+	margin:0 auto;
+	width:1440px;
+	height:10000px;
+}
+ul{
+	list-style-type:none;
+	padding:0;
+	margin:0;
+}
+header{
+	position: relative; /* à cause du filtre rgba et du centrage */
+	background: rgba(0,0,0,0.5) url("../images/nav-bg.png");
+	background-position: top left;
+	background-size:cover;
+	margin:0;
+	padding:0;
+	width:1440px;
+	/* height:90vh; */
+	height:960px;/* pour affichage 75% */
+	overflow: hidden;
+}
+header:before{
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	background-color:inherit; 
+	content: ' ';
+}
+header:hover{
+	background: rgba(0,0,0,0) url("../images/nav-bg.png");
+	/* height:90vh; */
+	height:960px;
+	background-size:cover;
+	transition: 1s;
+	width:100%;
+}
+nav{
+	position: relative;
+	float:right;
+	width: 580px;
+	padding-top:40px;
+	overflow: hidden;
+	z-index: 2;/* à cause du filtre rgba qui est passé devant */
+}
+nav a{
+	color:#222222;
+	text-decoration: none;
+}
+nav a:hover{
+	color:#c20f0d;
+}
+nav a.on{
+	color:#c20f0d;
+	font-weight:300;
+}
+nav ul li{
+	float:left;
+	font-size: 16px;
+	padding-right:50px;
+}
+h1{
+	position:absolute; /* et vérifier que le parent soit en relative */
+	top:50%;
+	left:50%;
+	-webkit-transform:translate(-50%,-50%) ;
+	-ms-transform:translate(-50%,-50%) ;
+	-o-transform:translate(-50%,-50%) ;
+	transform: translate(-50%,-50%);	
+}
+h2{
+	display: inline-block;
+	font-family:arial;
+	font-size: 18px;
+	line-height:30px;
+	font-weight: 900;
+	color:#c20f0d;
+	letter-spacing: -1.2pt;
+	border-bottom: 1px solid #e46d6c;
+	padding: 0 40px 0 0;
+
+}
+h3{
+	font-size: 28px;
+	line-height:32px;
+	font-weight: 500;
+	color:#c20f0d;
+}
+p{
+	font-size: 13px;
+	line-height:26px;
+	font-weight: 500;
+	padding-top:10px;
+}
+.logo1{
+	width:60px;
+}
+.logo2{
+	width:390px;
+}
+header div:nth-of-type(1){
+	 float: left;
+	 margin:25px 130px;
+}
+#collection{
+	box-sizing: border-box;
+	background-image: url("../images/bagage.jpg");
+	background-position: top left;
+	background-size:100%;
+	padding-top:150px;
+	height:550px;
+	/*border:1px solid red;*/
+}
+#collection article{
+	margin:0 10% 0 48%;
+}
+#collection .titre{
+	font-family:'Raleway';
+	font-size: 36px;
+	font-weight:300;
+	line-height:60px;
+}
+#collection p{
+	font-family:'Raleway';
+	font-size: 18px;
+	font-weight:300;
+	line-height:30px;
+}
+#valeurs{
+	box-sizing: border-box;
+	/*border:1px solid red;*/
+	border-top:60px solid #ffffff;
+}
+#valeurs h2{
+	border:none;
+	padding:0;
+}
+#valeurs article{
+	text-align: center;
+	padding:0;
+	margin:0;
+}
+#valeurs ul{
+	box-sizing: border-box;
+	overflow: hidden;
+}
+#valeurs ul li{
+	float:left;
+	width:25%;
+	height:700px;
+	overflow: hidden;
+	margin:0;
+	padding:0;
+}
+
+#valeurs ul li a{
+	display: block;
+	position: relative; /* à cause du filtre rgba et du centrage */
+	background: rgba(0,0,0,0.5) url("../images/img1.png");
+	background-size:cover;
+	height:700px;
+	width:100%;
+	margin:0;
+	padding:0;
+}
+#valeurs ul li a:before{
+	position:absolute;
+	height:700px;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	background-color:inherit; 
+	content: ' ';
+}
+#valeurs ul li a:hover{
+	background: rgba(0,0,0,0) url("../images/img1.png");
+	background-size:cover;
+	height:700px;
+	width:100%;
+	transition:1s;
+}
+#valeurs ul li a img{
+	width:50%;
+	margin-bottom:20px;
+	}
+#valeurs ul li a .legend{
+	position:absolute; /* et vérifier que le parent soit en relative */
+	top:50%;
+	left:50%;
+	-webkit-transform:translate(-50%,-50%) ;
+	-ms-transform:translate(-50%,-50%) ;
+	-o-transform:translate(-50%,-50%) ;
+	transform: translate(-50%,-50%);
+	color:#ffffff;
+	text-decoration: none;
+	font-size:26px;
+	font-weight:700;
+	text-transform: uppercase;
+}
+#valeurs article:nth-of-type(2) a.bg1{background-image: url("../images/img1.png");background-size:cover;}
+#valeurs article:nth-of-type(2) a.bg2{background-image: url("../images/img2.png");background-size:cover;}
+#valeurs article:nth-of-type(2) a.bg3{background-image: url("../images/img3.png");background-size:cover;}
+#valeurs article:nth-of-type(2) a.bg4{background-image: url("../images/img4.png");background-size:cover;}
+
+input{
+	margin: 30px 0;
+	background: #c20f0d;
+	padding:10px 20px;
+	font-family:'Raleway';
+	color:#ffffff;
+	font-size:18px;
+	font-weight:100;
+	border:none;
+}
+#cit{
+	background: #f1edeb;
+	height: 440px;
+	/*border:1px solid red;*/
+	overflow: hidden;
+}
+#cit blockquote{
+	font-family:'Raleway';
+	color:#333;
+	font-size:37px;
+	letter-spacing: 1.1px;
+	line-height:50px;
+	font-weight:300;
+	margin:150px 300px ;
+}
+.lCote{
+	float: left;
+	margin:150px 0 0 230px;
+	height: 50px;
+	width: 50px;
+	background-image: url("../images/guillemets.png");
+	background-size:100%;
+}
+.rCote{
+	float: right;
+	margin:220px 240px 0 0;
+	height: 50px;
+	width: 50px;
+	background-image: url("../images/guillemets-bis.png");
+	background-size:100%;
+}
+#cit figure{
+	position: relative;
+	top:-110px;
+	left: 900px;
+}
+
+footer{
+	position: relative;
+	overflow: hidden;
+	padding-bottom:100px;
+	border-bottom:80px solid #333;
+}
+footer h2{
+	margin:60px 0 0 140px;
+}
+footer .carnet{
+	box-sizing: border-box;
+	width:85%;
+	margin:0 auto;
+	padding-left:35px;
+}
+footer article{
+	position: relative;
+	float: left;
+	width:28%;
+	text-align: center;
+	/* border:1px solid red;*/
+}
+footer article:nth-of-type(odd){
+	position: relative;
+	top:25px;
+}
+footer article:nth-of-type(1){
+	width:30%;
+}
+footer article:nth-of-type(2){
+	width:37%;
+}
+footer article:nth-of-type(3){
+	width:30%;
+}
+footer article h3{
+	width:80%;
+	margin:0 auto;
+}
+footer article p{
+	width:80%;
+	margin:0 auto;
+}
+footer article img{
+	width:100%;
+}
+footer div.vote{
+	width:98%;
+	height:40px;
+	text-align: right;
+	margin-right:30px;
+}
+.vote img{
+	width:50px;
+	}
+footer article:nth-of-type(2) .vote img{
+	width:68px;
+	}
+footer .vote{
+	position: absolute;
+	top:10px;
+}
+
