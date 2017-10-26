@@ -9,7 +9,7 @@
 <b>Position BG</b> (https://fayechartre6.000webhostapp.com/exos/exo11-bg.html)<br>
 <b>ALLOCINE</b> (https://fayechartre6.000webhostapp.com/exos/exo-test01-50mn.html)<br>
 <b>PUBLICATION FACEBOOK</b> (https://fayechartre6.000webhostapp.com/exos/exo-test02-50mn.html)<br>
-<b>SONOMAD</b>5https://fayechartre6.000webhostapp.com/exos/sonomad/)<br>
+<b>SONOMAD</b> (https://fayechartre6.000webhostapp.com/exos/sonomad/)<br>
 
 # Etape à suivre pour gérer des fichiers/dossiers
 Pour connaitre les Commandes GITHUB se référer à ce repo : https://github.com/icmrprojet/isaProject-test 
