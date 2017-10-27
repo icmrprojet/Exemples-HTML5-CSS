@@ -44,6 +44,7 @@ header{
 	height:960px;/* pour affichage 75% */
 	overflow: hidden;
 }
+
 header:before{
 	position:absolute;
 	top:0;
@@ -61,6 +62,26 @@ header:hover{
 	transition: 1s;
 	width:100%;
 }
+/* Pour mettre un voil sur les images mais ne supporte pas les transitions */
+/*
+_header {
+ background: linear-gradient(
+ rgba(0, 0, 0, 0), 
+ rgba(0, 0, 0, 1)
+ ),url("../images/nav-bg.png");
+ background-size:cover;
+ background-repeat:no-repeat;
+ transition: 2s;
+}
+_header:hover {
+ background: linear-gradient(
+ rgba(0, 0, 0, 1), 
+ rgba(0, 0, 0, 0)
+ ),url("../images/nav-bg.png");
+ background-size:cover;
+ background-repeat:no-repeat;
+}
+*/
 nav{
 	position: relative;
 	float:right;
