@@ -16,7 +16,7 @@
 
 
 # Etape à suivre pour gérer des fichiers/dossiers
-Pour connaitre les Commandes GITHUB se référer à ce repo : https://github.com/icmrprojet/isaProject-test 
+Pour connaitre les Commandes GITHUB se référer à ce repo : https://github.com/icmrprojet/GITHUB-premiers-pas 
 
 #### PREMIERE ETAPE - CREATION CLONAGE
 1. Créer le projet sur GITHUB avec un fichier README.md
